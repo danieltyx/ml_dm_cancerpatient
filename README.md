@@ -1,6 +1,6 @@
 # 
 machine learning + data mining 
-## a decision assistant system 
+## A decision assistant system for doctors
 
 ## Details
 Data pre-processing:  
