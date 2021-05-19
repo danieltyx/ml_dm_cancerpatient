@@ -6,8 +6,12 @@ machine learning + data mining
 ## Abstract:
 Cancer is a leading cause of global mortality. Patients with advanced disease are often bedridden for long periods due to physical pain, organ failure, and debilitating treatment regimens. Their limited mobility during treatment is associated with numerous complications, including falls, pressure injuries, and blood clots. This study aims to reduce the incidence of preventable cancer complications by developing a risk monitoring system based on machine learning algorithms. Patient datasets are processed using statistical feature engineering and a modified tree-based gradient boosting lightGBM algorithm to predict individual-level risks of potential complications. Microsoft Azure is employed to build, compute, and connect endpoints. The best performing model reached 98.56%, 97.86%, and 97.20% in accuracy, respectively, for three major complications, falls, pressure injuries, and blood clots in test samples, and an overall 99.86% weighted area under the curve (AUC). The modified lightGBM tree-based model exceeds most existing algorithms regarding explainability and accuracy. Utilizing components like Tkinter, Azure request-response service, and SQLite databases, doctors and patients could easily access real-time analysis metrics and insightful data under low latency. This risk monitoring system can effectively prevent potential life-threatening complications, improve patient quality of life, and provide new ideas for the application of artificial intelligence to the field of health care.
 
-
+### Recognization: 
+  - NJ Regional Science Fair Exhibition 
+  - American Statistic Association: Special Mathmatics Award: First Place
+  
 ## Details
+
 Data pre-processing:  
 1. male1 female0
 2. weight height for non-numeric values such as flat cars with mean imputation (162, 59)
@@ -52,5 +56,7 @@ The third row is the theta value of each index for y=3
    -0.0043 -0.0103 0.0197
     0.0272 0.0298 0.0055
 ```
+
+
 
  
